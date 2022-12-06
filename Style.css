@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: black;
+   display: flex;
+   
+   line-height: 38px;
+   
+}
+
+footer p {
+    padding: 4px 36px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+header {
+    
+    height: 150px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.underimage2 {
+    color: #ffe500;
+    padding: 0 -45px;
+    margin-right: 2px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#flip{
+    height: 30px;
+    
+}
+.underimage {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+    
+
+}
+
+.star {
+    height: 10px;
+    
+}
+
+nav {
+    display: flex;
+    background-color: hsl(218, 90%, 55%);
+    justify-content:space-between;
+    padding: 0 300px;
+    align-items: center;
+    position: fixed;
+}
+
+header nav ul {
+    display: flex;
+
+    height: 10vh;
+
+    align-items: center;
+
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 70px;
+
+}
+header nav ul li a:hover {
+    color: darkblue;
+   font-weight: bolder;
+
+}
+.search{
+    display: flex;
+    width: 500px;
+
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 3px;
+    margin: 0 10px ;
+    padding: 0 12px;
+    
+}
+ .search button{
+    font-family: Roboto, Arial, sans-serif; 
+   font-weight: 700;
+} 
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: darkblue;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    cursor: pointer;
+    
+    
+}
+
+.slider{
+    
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 93vw;
+    margin: auto; 
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 16px 0;
+}
+.my-6{
+    display: flex;
+    width: 8w;
+}
+.container{
+    min-height: calc(100vh - 150px - 47px);
+}
